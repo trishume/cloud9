@@ -18,7 +18,7 @@ Linux*i686*)  echo "Linux 32 bit"
 	;;
     
 Darwin*)  echo  "OSX"
-    support/node-builds-v4/node-darwin bin/cloud9.js "$@" -a open
+    support/node-builds-v4/node-darwin bin/cloud9.js "$@" -c config.js
     ;;
 
 CYGWIN*)  echo  "Cygwin"

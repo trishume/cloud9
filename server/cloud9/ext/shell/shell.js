@@ -106,6 +106,8 @@ sys.inherits(ShellPlugin, Plugin);
 
     this.pwd   =
     this.mkdir =
+    this.wc =
+    this.ruby =
     this.ls    = function(message) {
         var _self = this;
         this.spawnCommand(message.command, message.argv.slice(1), message.cwd, null, null, function(code, err, out) {

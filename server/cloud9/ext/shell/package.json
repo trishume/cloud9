@@ -16,6 +16,7 @@
                 "[PATH]": {"hint": "path pointing to a folder. Autocomplete with [TAB]"}
             }
         },
+        "bash" : {"hint":"bashing yay!"},
         "pwd": {"hint": "return working directory name"}
     }
 }

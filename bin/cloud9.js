@@ -68,12 +68,4 @@ Project root is: " + options.workspace);
 if (options.ip === "all" || options.ip === "0.0.0.0")
     options.ip = "localhost";
 
-var url = "http://" + options.ip + ":" + options.port;
-if (options.action) {
-    Sys.puts("Trying to start your browser in: " + url);
-    options.action.push(url);
-    require("child_process").spawn(options.action[0], options.action.slice(1));
-}
-else {
-    Sys.puts("Point your browser to " + url);
-}
+//Sys.puts("Point your browser to " + url);
